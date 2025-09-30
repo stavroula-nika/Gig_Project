@@ -1,4 +1,4 @@
-//Create a component called Gig, which contains information about a gig on the website. It should contain:
+//1-2. Create a component called Gig, which contains information about a gig on the website. It should contain:
 
 //A h3 (heading) element listing the name of the band
 //A img (image) element for an image of the band, using the src attribute to link to an image.
