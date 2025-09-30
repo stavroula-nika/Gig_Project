@@ -12,14 +12,15 @@ import React from "react";
 const Gig = () => {
     return (
         <div className="Gig">
-            <h3>Fleetwood Mac</h3>
+            <h3 className="gig-title">Fleetwood Mac</h3>
             <img 
+                className="gig-image"
                 src="https://yt3.googleusercontent.com/pTa9CSj4p2bCopIiKZDhYV5ABd2YYhtEfh7bAB3FL0G8SfGj6cTUAtdjXdsXpGNOKpHnMv1z2g=s900-c-k-c0x00ffffff-no-rj" 
                 alt="Fleetwood Mac performing live" 
             />
-            <p id="Description">A tribute concert featuring the band's most-loved songs, performed by a live band with a focus on capturing the iconic sound and emotion of the original group's golden era.</p>
-            <p id="TimeDate">20:00 25/10/2026</p>
-            <p id="Location">Royal Albert Hall, Kensington Gore, South Kensington, London, SW7 2AP</p>
+            <p className="gig-description" id="Description">A tribute concert featuring the band's most-loved songs, performed by a live band with a focus on capturing the iconic sound and emotion of the original group's golden era.</p>
+            <p className="gig-time-date" id="TimeDate">20:00 25/10/2026</p>
+            <p className="gig-location" id="Location">Royal Albert Hall, Kensington Gore, South Kensington, London, SW7 2AP</p>
         </div>
     );
 };
